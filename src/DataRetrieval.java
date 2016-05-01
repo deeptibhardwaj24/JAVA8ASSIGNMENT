@@ -24,7 +24,7 @@ public class DataRetrieval {
                 .setOAuthConsumerKey("F0lBLbVbOqcv1XfWto1hNLCq3")
                 .setOAuthConsumerSecret("5gSTAQEkN2YVWaa3Fv3suWvQrkmtkJNQNlqQN60bJ4rcL3893n")
                 .setOAuthAccessToken("4850140214-I3OoJwDZui3YUamq31IPhm71P6alyaKvl6ls8uz")
-                .setOAuthAccessTokenSecret(" DTKKl6ae3sRcx2LqDzxbhg2iRIIxheInDyBcEKZyvrvLH");
+                .setOAuthAccessTokenSecret("DTKKl6ae3sRcx2LqDzxbhg2iRIIxheInDyBcEKZyvrvLH");
 
         TwitterFactory twitterFactory = new TwitterFactory(configurationBuilder.build());
         Twitter twitter = twitterFactory.getInstance();
